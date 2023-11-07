@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suo's E-Commerce Store</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <section class="header img">
+        <img src="img/headerpic.jpeg" class="img-fuild " alt="Skin Care Store Logo">
+        <h1>Skin Care Store</h1>
+        <p><span style="font-size: smaller; font-weight: normal;">At our online Store, we believe that skincare is more than just a routine; 
+            <br>it's a journey to healthier, radiant skin. Our mission is to empower you to look and feel your best </br>
+            by offering a range of high-quality skincare products that cater to your unique needs.</span>
+    </section>
+    </header>
+    <main>
+        <section class="product">
+            <img src="img/ordinaryred.jpg" class="img-fluid" alt="Ordinary Peeling">
+            <h2>Ordinary Peeling</h2>
+            <p>
+                The Ordinary AHA 30% + BHA 2% Peeling Solution is an extra-strength
+                 <br>exfoliating peel that clears away dead skin cells and pore-cloggers</br> 
+                 to brighten and clarify skin.
+            </p>
+            <p>Price: 3200Da</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </section>
+
+        <section class="product">
+            <img src="img/ordinary2.jpg" class="img-fuild" alt="Ordinary">
+            <h2>Niacimade10% + Zinc1%</h2>
+            <p>Our Niacinamide 10% + Zinc 1% formula is a water-based serum that boosts skin brightness 
+                <br>improves skin smoothness and reinforces the skin barrier over time.</br>
+                 It contains a high 10% concentration of Niacinamide and zinc PCA.
+            </p>
+            <p>Price: 2900Da</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="img/ordinary3.jpg" class="img-fuild" alt="Ordinary">
+            <h2>100% Plant-Derived Squalane</h2>
+            <p>The Ordinary 100% Plant-Derived Squalane is an exceptionally pure natural moisturiser
+                 <br>to keep skin soft and supple, ease any dry patches, and balance skin's oil production.</br> </p>
+            <p>Price: 2700Da</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="img/ordinaryhair.jpg" class="img-fuild" alt="Ordinary">
+            <h2>Multi-Peptide Serum for Hair Density</h2>
+            <p>Multi-Peptide Serum for Hair Density is a concentrated leave-in formula designed to support the scalp 
+                <br> give you thicker, denser, fuller-looking hair.</br> </p>
+            <p>Price: 2700Da</p>
+            <button onclick="addToCart(4)">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="img/natural.webp" class="img-fuild" alt="Ordinary">
+            <h2> Hyaluronic Acid 2% + B5</h2>
+            <p> The Ordinary Natural Moisturizing Factors + HA instantly hydrates and protects skin with Hyaluronic Acid and 
+                <br>moisturising compounds found naturally in healthy skin.</br> </p>
+            <p>Price: 3500Da</p>
+            <button onclick="addToCart(5)">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="img/ha.jpeg" class="img-fuild" alt="Ordinary">
+            <h2> Natural Moisturizing Factors +HA</h2>
+            <p> This ordinary product makes the skin looks youthful and reduce signs of wrinkles
+                <br>It yields faster regeneration, higher elasticity, less scaring and maximum hydration.</br> </p>
+            <p>Price: 3200Da</p>
+            <br> </br>
+            <button onclick="addToCart(6)">Add to Cart</button>
+        </section>
+    </main>
+    <aside>
+        <h2>Shopping Cart</h2>
+        <ul id="cart">
+        </ul>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>

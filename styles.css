@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    color: hsl(240, 17%, 66%)%);
+    text-align: center;
+    padding: 20px;
+     
+}
+.header img{
+    width: 1200px; 
+    height: 300px; 
+}
+/* Styles CSS pour changer la taille et la police du texte "Skin Care Store" */
+header h1 {
+    font-size: 27px; 
+    font-family: Verdana, sans-serif; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33.33% - 10px); 
+    margin: 5px; 
+}
+
+.product img {
+    max-width: 45%;}
+
+body {
+    background-image: url('img/st.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+button {
+    background-color: #333;
+    color: #ebe1e1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.product p {
+    white-space: normal; 
+    line-height: 1.5;
+    text-align: left; 
+    margin: 10px; 
+    padding: 5px; 
+}
+aside {
+    background-color:#b6b7b6;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#cart {
+    list-style: none;
+    padding: 0;
+}
+
+#cart li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
